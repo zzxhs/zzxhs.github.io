@@ -1,0 +1,75 @@
+<div><br class="Apple-interchange-newline">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy3-5</title>
+<style type="text/css">
+	.login {														/*登录框容器样式*/
+		margin: 0 auto;												/*容器水平居中对齐*/
+		width: 280px;
+		padding: 14px;
+		border: dashed 2px #b7ddf2;									/*2px虚线淡蓝色框*/
+		background: #ebf4fb;
+	}
+	.login * {														/*容器中所有元素的样式*/
+		margin: 0;
+		padding: 0;
+		font-family: "宋体";
+		font-size: 12px;
+		line-height: 1.5em;
+	}
+	.login h2 {														/*容器中2级标题的样式*/
+		text-align: center;											/*文字水平居中对齐*/
+		font-size: 18px;
+		font-weight: bold;											/*字体加粗*/
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		border-bottom: solid 1px #b7ddf2;							/*下边框1px实线淡蓝色边框*/
+	}
+	.login .content {												/*容器内容区域样式*/
+		padding: 5px;
+	}
+	.login .frm_cont {												/*内容区域中提示文字样式*/
+		margin-bottom: 8px;
+	}
+	.login .username input,.login .password input {					/*用户名文本域和密码域的样式*/
+		width: 180px;
+		height: 18px;
+		padding: 0px 0px 2px 18px;									/*文本框左边距18px，以便为背景图像预留显示空间*/
+		border: solid 1px #aacfc4;									/*1px实线淡蓝色边框*/
+	}
+	.login .username input {										/*用户文本域背景图像*/
+		background: #FFF url() no-repeat left center;
+	}
+	.login .password input {										/*密码域背景图像*/
+		background: #FFF url() no-repeat left center;
+	}
+	.login .btns {													/*按钮的样式*/
+		text-align: center;											
+	}
+</style>
+</head>
+
+<body>
+<div class="login">
+	<h2>用户登录</h2>
+	<div class="content">
+		<form action="" method="post">
+			<div class="frm_cont username">
+				<label for="username">用户名：</label>
+				<input type="text" name="username" id="username" value="海阔天空">
+			</div>
+			<div class="frm_cont password">
+				<label for="password">密&nbsp;码：</label>
+				<input type="password" name="password" id="password" value="00000">
+			</div>
+			<div class="btns">
+				<input type="submit" name="button1" id="button1" value="登录">
+				<input type="button" name="button1" id="button2" value="注册">
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html></div>1
